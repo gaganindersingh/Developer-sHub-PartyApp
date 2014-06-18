@@ -8,13 +8,31 @@
 
 #import "AppDelegate.h"
 
+#import "LoginViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent
+                                                animated:true];
+    
+    LoginViewController *objLoginView = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:nil];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:objLoginView];
+    [self.navController.navigationBar setBarTintColor:[UIColor blackColor]];
+//    [self.navController.navigationBar setTintColor:[UIColor whiteColor]];
+    
+    NSDictionary *attrNavBarText = [NSDictionary dictionaryWithObjectsAndKeys:
+                                    [UIColor whiteColor], NSForegroundColorAttributeName,
+                                    [UIFont systemFontOfSize:14], NSFontAttributeName, nil];
+    [self.navController.navigationBar setTitleTextAttributes:attrNavBarText];
+    
+    [self.navController.navigationBar setTranslucent:false];
+    [self.window setRootViewController:self.navController];
+    self.window.backgroundColor = [UIColor blackColor];
     [self.window makeKeyAndVisible];
     return YES;
 }

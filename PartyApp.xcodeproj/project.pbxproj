@@ -19,6 +19,24 @@
 		8425AF7A194C3E7800E8CCF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8425AF62194C3E7800E8CCF3 /* UIKit.framework */; };
 		8425AF82194C3E7800E8CCF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8425AF80194C3E7800E8CCF3 /* InfoPlist.strings */; };
 		8425AF84194C3E7800E8CCF3 /* PartyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8425AF83194C3E7800E8CCF3 /* PartyAppTests.m */; };
+		8425AF95194C468200E8CCF3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8425AF93194C468200E8CCF3 /* LoginViewController.m */; };
+		8425AF96194C468200E8CCF3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8425AF94194C468200E8CCF3 /* LoginViewController.xib */; };
+		8425AF9E194C52AA00E8CCF3 /* appBackground4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AF9A194C52AA00E8CCF3 /* appBackground4@2x.png */; };
+		8425AF9F194C52AA00E8CCF3 /* appBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AF9B194C52AA00E8CCF3 /* appBackground@2x.png */; };
+		8425AFA0194C52AA00E8CCF3 /* appBackground4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AF9D194C52AA00E8CCF3 /* appBackground4.png */; };
+		8425AFA3194C52F200E8CCF3 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8425AFA2194C52F200E8CCF3 /* BaseViewController.m */; };
+		8425AFA8194C53A800E8CCF3 /* CommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8425AFA7194C53A800E8CCF3 /* CommonFunctions.m */; };
+		8425AFAB194C54AF00E8CCF3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8425AFAA194C54AF00E8CCF3 /* Constants.m */; };
+		8425AFAE194C7EE000E8CCF3 /* imageLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AFAD194C7EE000E8CCF3 /* imageLogo@2x.png */; };
+		8425AFB0194C7EE800E8CCF3 /* imageLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AFAF194C7EE800E8CCF3 /* imageLogo.png */; };
+		8425AFB4194C840000E8CCF3 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AFB1194C840000E8CCF3 /* blueButton.png */; };
+		8425AFB5194C840000E8CCF3 /* magentaButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AFB2194C840000E8CCF3 /* magentaButton.png */; };
+		8425AFB6194C840000E8CCF3 /* purpleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AFB3194C840000E8CCF3 /* purpleButton.png */; };
+		8425AFBA194C841800E8CCF3 /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AFB7194C841800E8CCF3 /* blueButton@2x.png */; };
+		8425AFBB194C841800E8CCF3 /* magentaButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AFB8194C841800E8CCF3 /* magentaButton@2x.png */; };
+		8425AFBC194C841800E8CCF3 /* purpleButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8425AFB9194C841800E8CCF3 /* purpleButton@2x.png */; };
+		84B2C184194D888F006753E4 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2C182194D888F006753E4 /* RegisterViewController.m */; };
+		84B2C185194D888F006753E4 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B2C183194D888F006753E4 /* RegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +66,29 @@
 		8425AF7F194C3E7800E8CCF3 /* PartyAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PartyAppTests-Info.plist"; sourceTree = "<group>"; };
 		8425AF81194C3E7800E8CCF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8425AF83194C3E7800E8CCF3 /* PartyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartyAppTests.m; sourceTree = "<group>"; };
+		8425AF92194C468200E8CCF3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ViewControllers/LoginViewController/LoginViewController.h; sourceTree = "<group>"; };
+		8425AF93194C468200E8CCF3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ViewControllers/LoginViewController/LoginViewController.m; sourceTree = "<group>"; };
+		8425AF94194C468200E8CCF3 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = ViewControllers/LoginViewController/LoginViewController.xib; sourceTree = "<group>"; };
+		8425AF9A194C52AA00E8CCF3 /* appBackground4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appBackground4@2x.png"; sourceTree = "<group>"; };
+		8425AF9B194C52AA00E8CCF3 /* appBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appBackground@2x.png"; sourceTree = "<group>"; };
+		8425AF9D194C52AA00E8CCF3 /* appBackground4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appBackground4.png; sourceTree = "<group>"; };
+		8425AFA1194C52F200E8CCF3 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ViewControllers/BaseViewController/BaseViewController.h; sourceTree = "<group>"; };
+		8425AFA2194C52F200E8CCF3 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ViewControllers/BaseViewController/BaseViewController.m; sourceTree = "<group>"; };
+		8425AFA6194C53A800E8CCF3 /* CommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonFunctions.h; path = HelperClasses/CommonFunctions/CommonFunctions.h; sourceTree = "<group>"; };
+		8425AFA7194C53A800E8CCF3 /* CommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonFunctions.m; path = HelperClasses/CommonFunctions/CommonFunctions.m; sourceTree = "<group>"; };
+		8425AFA9194C54AF00E8CCF3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = HelperClasses/Constants/Constants.h; sourceTree = "<group>"; };
+		8425AFAA194C54AF00E8CCF3 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = HelperClasses/Constants/Constants.m; sourceTree = "<group>"; };
+		8425AFAD194C7EE000E8CCF3 /* imageLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imageLogo@2x.png"; sourceTree = "<group>"; };
+		8425AFAF194C7EE800E8CCF3 /* imageLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imageLogo.png; sourceTree = "<group>"; };
+		8425AFB1194C840000E8CCF3 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		8425AFB2194C840000E8CCF3 /* magentaButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magentaButton.png; sourceTree = "<group>"; };
+		8425AFB3194C840000E8CCF3 /* purpleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpleButton.png; sourceTree = "<group>"; };
+		8425AFB7194C841800E8CCF3 /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
+		8425AFB8194C841800E8CCF3 /* magentaButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magentaButton@2x.png"; sourceTree = "<group>"; };
+		8425AFB9194C841800E8CCF3 /* purpleButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purpleButton@2x.png"; sourceTree = "<group>"; };
+		84B2C181194D888F006753E4 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = ViewControllers/RegisterViewController/RegisterViewController.h; sourceTree = "<group>"; };
+		84B2C182194D888F006753E4 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = ViewControllers/RegisterViewController/RegisterViewController.m; sourceTree = "<group>"; };
+		84B2C183194D888F006753E4 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegisterViewController.xib; path = ViewControllers/RegisterViewController/RegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +148,10 @@
 		8425AF64194C3E7800E8CCF3 /* PartyApp */ = {
 			isa = PBXGroup;
 			children = (
-				8425AF6D194C3E7800E8CCF3 /* AppDelegate.h */,
-				8425AF6E194C3E7800E8CCF3 /* AppDelegate.m */,
+				8425AF8F194C437100E8CCF3 /* Models */,
+				8425AF8E194C436600E8CCF3 /* HelperClasses */,
+				8425AF8D194C3E8200E8CCF3 /* AppDelegate */,
+				8425AF90194C461A00E8CCF3 /* ViewControllers */,
 				8425AF70194C3E7800E8CCF3 /* Images.xcassets */,
 				8425AF65194C3E7800E8CCF3 /* Supporting Files */,
 			);
@@ -118,6 +161,8 @@
 		8425AF65194C3E7800E8CCF3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8425AF98194C46C200E8CCF3 /* Images */,
+				8425AF97194C46BB00E8CCF3 /* AppIcons */,
 				8425AF66194C3E7800E8CCF3 /* PartyApp-Info.plist */,
 				8425AF67194C3E7800E8CCF3 /* InfoPlist.strings */,
 				8425AF6A194C3E7800E8CCF3 /* main.m */,
@@ -142,6 +187,129 @@
 				8425AF80194C3E7800E8CCF3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8425AF8D194C3E8200E8CCF3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8425AF6D194C3E7800E8CCF3 /* AppDelegate.h */,
+				8425AF6E194C3E7800E8CCF3 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8425AF8E194C436600E8CCF3 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8425AFA5194C537600E8CCF3 /* CommonFunctions */,
+				8425AFAC194C54B500E8CCF3 /* Constants */,
+			);
+			name = HelperClasses;
+			sourceTree = "<group>";
+		};
+		8425AF8F194C437100E8CCF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8425AF90194C461A00E8CCF3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84B2C180194D885B006753E4 /* RegisterViewController */,
+				8425AFA4194C52FA00E8CCF3 /* BaseViewController */,
+				8425AF91194C462600E8CCF3 /* LoginViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8425AF91194C462600E8CCF3 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8425AF92194C468200E8CCF3 /* LoginViewController.h */,
+				8425AF93194C468200E8CCF3 /* LoginViewController.m */,
+				8425AF94194C468200E8CCF3 /* LoginViewController.xib */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		8425AF97194C46BB00E8CCF3 /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppIcons;
+			sourceTree = "<group>";
+		};
+		8425AF98194C46C200E8CCF3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8425AF99194C52AA00E8CCF3 /* Retina */,
+				8425AF9C194C52AA00E8CCF3 /* Simple */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8425AF99194C52AA00E8CCF3 /* Retina */ = {
+			isa = PBXGroup;
+			children = (
+				8425AFB7194C841800E8CCF3 /* blueButton@2x.png */,
+				8425AFB8194C841800E8CCF3 /* magentaButton@2x.png */,
+				8425AFB9194C841800E8CCF3 /* purpleButton@2x.png */,
+				8425AFAD194C7EE000E8CCF3 /* imageLogo@2x.png */,
+				8425AF9A194C52AA00E8CCF3 /* appBackground4@2x.png */,
+				8425AF9B194C52AA00E8CCF3 /* appBackground@2x.png */,
+			);
+			path = Retina;
+			sourceTree = "<group>";
+		};
+		8425AF9C194C52AA00E8CCF3 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				8425AFB1194C840000E8CCF3 /* blueButton.png */,
+				8425AFB2194C840000E8CCF3 /* magentaButton.png */,
+				8425AFB3194C840000E8CCF3 /* purpleButton.png */,
+				8425AFAF194C7EE800E8CCF3 /* imageLogo.png */,
+				8425AF9D194C52AA00E8CCF3 /* appBackground4.png */,
+			);
+			path = Simple;
+			sourceTree = "<group>";
+		};
+		8425AFA4194C52FA00E8CCF3 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8425AFA1194C52F200E8CCF3 /* BaseViewController.h */,
+				8425AFA2194C52F200E8CCF3 /* BaseViewController.m */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		8425AFA5194C537600E8CCF3 /* CommonFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				8425AFA6194C53A800E8CCF3 /* CommonFunctions.h */,
+				8425AFA7194C53A800E8CCF3 /* CommonFunctions.m */,
+			);
+			name = CommonFunctions;
+			sourceTree = "<group>";
+		};
+		8425AFAC194C54B500E8CCF3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8425AFA9194C54AF00E8CCF3 /* Constants.h */,
+				8425AFAA194C54AF00E8CCF3 /* Constants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		84B2C180194D885B006753E4 /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84B2C181194D888F006753E4 /* RegisterViewController.h */,
+				84B2C182194D888F006753E4 /* RegisterViewController.m */,
+				84B2C183194D888F006753E4 /* RegisterViewController.xib */,
+			);
+			name = RegisterViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +387,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8425AFA0194C52AA00E8CCF3 /* appBackground4.png in Resources */,
 				8425AF69194C3E7800E8CCF3 /* InfoPlist.strings in Resources */,
+				8425AFBB194C841800E8CCF3 /* magentaButton@2x.png in Resources */,
+				8425AFBA194C841800E8CCF3 /* blueButton@2x.png in Resources */,
+				8425AFBC194C841800E8CCF3 /* purpleButton@2x.png in Resources */,
+				8425AFAE194C7EE000E8CCF3 /* imageLogo@2x.png in Resources */,
 				8425AF71194C3E7800E8CCF3 /* Images.xcassets in Resources */,
+				8425AFB6194C840000E8CCF3 /* purpleButton.png in Resources */,
+				8425AFB0194C7EE800E8CCF3 /* imageLogo.png in Resources */,
+				8425AFB5194C840000E8CCF3 /* magentaButton.png in Resources */,
+				8425AF96194C468200E8CCF3 /* LoginViewController.xib in Resources */,
+				84B2C185194D888F006753E4 /* RegisterViewController.xib in Resources */,
+				8425AFB4194C840000E8CCF3 /* blueButton.png in Resources */,
+				8425AF9F194C52AA00E8CCF3 /* appBackground@2x.png in Resources */,
+				8425AF9E194C52AA00E8CCF3 /* appBackground4@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +421,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8425AF6F194C3E7800E8CCF3 /* AppDelegate.m in Sources */,
+				8425AFA3194C52F200E8CCF3 /* BaseViewController.m in Sources */,
 				8425AF6B194C3E7800E8CCF3 /* main.m in Sources */,
+				8425AF95194C468200E8CCF3 /* LoginViewController.m in Sources */,
+				84B2C184194D888F006753E4 /* RegisterViewController.m in Sources */,
+				8425AFA8194C53A800E8CCF3 /* CommonFunctions.m in Sources */,
+				8425AFAB194C54AF00E8CCF3 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +627,7 @@
 				8425AF89194C3E7800E8CCF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8425AF8A194C3E7800E8CCF3 /* Build configuration list for PBXNativeTarget "PartyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +636,7 @@
 				8425AF8C194C3E7800E8CCF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
